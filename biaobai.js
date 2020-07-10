@@ -242,7 +242,6 @@ default:
 
 function letters(id) {
 	var el = document.getElementById(id);
-	alert(el)
 	if(el) {
 		var letters = el.innerHTML.replace('&amp;', '&').split(''),
 		heading = '';
